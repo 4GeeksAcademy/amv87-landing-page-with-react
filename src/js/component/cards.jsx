@@ -1,14 +1,10 @@
 import React from "react"
 import cardImage from "../../img/cardimage.png"
 
-const myCard = {
-    width: "18rem"
-}
-
 const Card = () => {
 	return (
             <div className="col py-5">
-                <div className="card" style={myCard}>
+                <div className="card" style={{width: "18rem"}}>
                     <img src={cardImage} className="card-img-top" alt="..." />
                     <div className="card-body text-center">
                         <h5 className="card-title">Card title</h5>
