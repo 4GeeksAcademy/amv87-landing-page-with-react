@@ -3,7 +3,7 @@ import cardImage from "../../img/cardimage.png"
 
 const Card = () => {
 	return (
-            <div className="col py-5">
+            <div className="col py-5 d-flex justify-content-center">
                 <div className="card" style={{width: "18rem"}}>
                     <img src={cardImage} className="card-img-top" alt="..." />
                     <div className="card-body text-center">
